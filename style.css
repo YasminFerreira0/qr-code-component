@@ -1,0 +1,41 @@
+body {
+    background: hsl(212, 45%, 89%);
+    font-family: Outfit, sans-serif;
+}
+    
+.caixa {
+    background: hsl(0, 0%, 100%);
+    text-align: center; /*centraliza o conteudo na horizontal*/
+    border-radius: 1.5rem; /*borda aredondada*/
+    width: 20%; /*w e h, tamanho do quadro branco*/
+    height: 35%;
+    margin: 5% auto; /*margem cima e baixo de 5% e lados automatica, centraliza na vertical*/
+    padding: 10px;
+}
+
+.qr-code {
+    border-radius: 1rem; /*arredonta imagem*/
+    margin: 0 auto;
+    width: 95%; /*tamanho da imagem em relacao ao quadro branco*/
+    margin-top: 10px;
+}
+
+.caixa h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 17px;
+    padding: 10px 25px 0 25px;
+}
+
+.caixa p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding: 10px 25px 10px 25px;
+}
+
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
